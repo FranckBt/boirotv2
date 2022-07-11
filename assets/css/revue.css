@@ -1,0 +1,39 @@
+.titreR{
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: black;
+    text-align: center;
+    font-weight: 600;  
+}
+
+.articleR{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.dateR{
+margin-bottom: .5rem;
+font-size: .8rem;
+text-align: center;
+}
+
+.signatureR{
+margin-bottom: 20px;
+}
+
+/* ////////////logo Article//////////// */
+.imgR{
+    max-width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+  
+}
+.penR{
+    max-width: 8%;
+    margin-left: 46%;
+    margin-right: 46%;
+    margin-bottom: .5rem;
+}

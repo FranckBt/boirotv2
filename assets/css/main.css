@@ -1,0 +1,49 @@
+/* /////////////////////////////////Info Cab////////////////////////////// */
+
+
+/* /////////////////////////////////:Compétences////////////////////////////// */
+.icn-balance{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: -5px;
+}
+
+.domaine {
+    display: flex;
+}
+.domaine-text {
+	margin-left: 5px;
+}
+
+p.domaine-text-headline {
+	line-height: 1.5rem;
+	font-weight: bold;
+}
+.competence {
+    margin-bottom: 20px;
+}
+.competence-header{
+    position: relative;
+    text-align: center;
+}
+
+.competence-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.595);
+    font-size: 1.5rem;
+    padding: 10px 15px;
+}
+
+.competence-text {
+    margin-top: 10px;
+}
+
+/* //////////////////////////////////hono///////////////////////////////////// */
+
+.hono{
+    padding: 3rem 1.5rem;
+    background-color: rgb(163, 163, 163);
+}

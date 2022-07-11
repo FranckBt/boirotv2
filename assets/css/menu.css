@@ -1,0 +1,105 @@
+.menuBurger {
+    position: relative;
+    margin-top: 20px;
+}
+
+/* style du boutton */
+.burger-button {
+	position: absolute;
+	top: 15px;
+	right: 5px;
+	z-index: 9;
+	padding: 15px 0;
+	cursor: pointer;
+	background-color: transparent;
+	transition: .5s;
+}
+
+/*couleur des bouttons*/
+.burger-button span {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    transition: .3s;
+}
+.burger-top,
+.burger-bottom {
+    position: absolute;
+}
+
+.burger-top {
+    top: 5px;
+}
+.burger-bottom {
+    bottom: 5px;
+}
+
+.burger-menu {
+    /* height: 30vh; */
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: -100vh;
+    right: 0px;
+    left: 0px;
+
+    background-color: var(--bg-primary);
+    /* padding: .3rem; */
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    z-index: 5;
+    transition: .5s;
+    /* align-content: space-around;
+    justify-content: space-around; */
+    text-align: center;
+}
+/* BURGER MENU ACTIF */
+
+.burger-button.active{
+    background-color:transparent;
+    transform: rotate(90deg);
+}
+
+.burger-menu.active {
+    top: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.burger-button.active .burger-top {
+    top: 15px;
+    transform: rotate(45deg);
+    background-color: var(--bg-active);
+}
+
+.burger-button.active .burger-middle {
+    border-color:transparent;
+    background-color: transparent;
+}
+
+/* Meme position en bas que le padding du burger */
+
+.burger-button.active .burger-bottom {
+    bottom: 15px;
+    transform: rotate(-45deg);
+    background-color: rgb(255, 255, 255);
+}
+
+.burger-menu a {
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: 300;
+	color: rgb(0, 0, 0);
+	padding: 10px 15px;
+	white-space: nowrap;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.burger-menu a:hover {
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	font-weight: 600;
+	box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+}

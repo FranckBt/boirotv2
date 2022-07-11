@@ -1,0 +1,15 @@
+/* header{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2rem;
+} */
+
+.head{
+    display: none;
+}
+
+
+#batiment{
+    width: 100vw;
+    height: 100px;
+}

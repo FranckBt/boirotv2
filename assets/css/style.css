@@ -1,0 +1,128 @@
+@import url('./reset.css');
+@import url('./fonts.css');
+
+@import url('./header.css');
+@import url('./menu.css');
+@import url('./main.css');
+@import url('./contact.css');
+@import url('./map.css');
+@import url('./footer.css');
+@import url('./revue.css');
+@import url('./login.css');
+@import url('./formAjoutADM.css');
+@import url('./messageErreur.css');
+@import url('./inputBrouillon.css');
+@import url('./navAdm.css');
+@import url('./media.css');
+
+/* TEST BUTTON TO TOP */
+@import url('./testButton.css');
+/* ************* */
+
+
+:root {
+    --bg-primary : rgb(157, 151, 151);
+    --bg-active : rgb(255, 251, 243);
+
+    --ff-primary: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    font-family: var(--ff-primary);
+    color: rgb(28, 44, 95);
+}
+h2{
+    font-weight:400;
+    
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+label{
+    margin-left: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+p, figcaption, .competence-title {
+	line-height: 1.2rem;
+	font-weight: lighter;
+}
+
+::placeholder {
+    font-size: 0.9rem;
+    font-family: var(--ff-primary);
+}
+
+.btn {
+	display: block;
+	cursor: pointer;
+	padding: 10px;
+	color: rgb(119, 118, 118);
+	text-align: center;
+	border: 2px solid rgb(119, 118, 118);
+	border-radius: 2px;
+}
+
+.btn:hover {
+	background-color: gray;
+	color: white;
+}
+
+.btn-alert:hover {
+    background-color: rgba(230, 61, 61, 0.78);
+    border-color:  rgba(230, 61, 61, 0.78);
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.wrap-std {
+    width: 90%;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: .7rem;
+    border: none;
+    border-bottom: solid 2px black;
+    margin-top: 10px;;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 60px;
+}
+
+/* #portrait {
+    margin-top: 20px;
+    text-align: center;
+} */
+
+#portrait {
+	text-align: center;
+	max-width: 350px;
+	margin: 0px auto;
+}
