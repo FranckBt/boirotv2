@@ -1,5 +1,9 @@
 /* /////////////////////////////////Info Cab////////////////////////////// */
-
+#portrait {
+	text-align: center;
+	max-width: 350px;
+	margin: 0px auto;
+}
 
 /* /////////////////////////////////:Compétences////////////////////////////// */
 .icn-balance{
@@ -42,8 +46,20 @@ p.domaine-text-headline {
 }
 
 /* //////////////////////////////////hono///////////////////////////////////// */
+#honoraires {
+    background-image: url("../../img/23.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
 
-.hono{
-    padding: 3rem 1.5rem;
-    background-color: rgb(163, 163, 163);
+.hono {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+/* //////////////////////////////////Contact///////////////////////////////////// */
+
+#contact-infos {
+    text-align: center;
 }

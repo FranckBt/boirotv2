@@ -1,7 +1,4 @@
 <main class="wrap-std">
-    <!-- <div id="portrait" class="wrap-std">
-            <img src="./img/portrait.jpg" alt="Portrait Maitre Boirot">
-        </div> -->
     <div id="cabinet" class="mt-20">
         <h2>Présentation</h2>
         <figure id="portrait">
@@ -116,15 +113,11 @@
     <div id="honoraires" class="mt-20">
         <div class="hono">
             <h2>Honoraires</h2>
-            <p>
-                La confiance entre l'avocat et la personne qu'elle assiste passe par une entière transparence sur les honoraires pratiqués par le Cabinet.
-                Les honoraires peuvent prendre la forme soit d'un forfait, soit d'un taux horaire facturé au temps passé.
-            </p>
-            <p>
-                Les honoraires sont discutés dès le premier rendez-vous.
-                Lorsque les modalités d'assistance sont fixées, une convention d'honoraires est alors signée.
-            </p>
-            <p> le 1er janvier 2016, en cas de contestation des honoraires, il est possible de se référer au médiateur de la consommation Monsieur Jérôme HERCÉ, 22 rue de Londres 75009 PARIS. Le recours à ce médiateur n’entraîne aucun frais à la charge du client</p>
+            <p>La confiance entre l'avocat et la personne qu'elle assiste passe par une entière transparence sur les honoraires pratiqués par le Cabinet.
+                Les honoraires peuvent prendre la forme soit d'un forfait, soit d'un taux horaire facturé au temps passé.</p>
+            <p>Les honoraires sont discutés dès le premier rendez-vous.
+                Lorsque les modalités d'assistance sont fixées, une convention d'honoraires est alors signée.</p>
+            <p>Depuis le 1er janvier 2016, en cas de contestation des honoraires, il est possible de se référer au médiateur de la consommation Monsieur Jérôme HERCÉ, 22 rue de Londres 75009 PARIS. Le recours à ce médiateur n’entraîne aucun frais à la charge du client</p>
         </div>
     </div>
 
@@ -134,29 +127,29 @@
         require_once './includes/revue.php';
         ?>
     </div>
-
     <div id="contact" class="mt-20">
-        <h2>NOUS CONTACTER</h2>
-        <div>
-            <p>Du Lundi au Vendredi</p>
-            <p>De 9h à 18h30</p>
-        </div>
-        <div class="mt-10">
-            <p>25 Bd de la Tour-Maubourg</p>
-            <p>75007 Paris</p>
-        </div>
-        <div class="mt-10">
-            <p>boirotavocat@gmail.com</p>
-            <p>01.23.45.67.89</p>
-        </div>
-
+        <h2>CONTACT</h2>
         <?php
         require_once './includes/contact.php';
         ?>
+        <div id="contact-infos" class="mt-20">
+            <div>
+                <p>Du Lundi au Vendredi</p>
+                <p>De 9h à 18h30</p>
+            </div>
+            <div class="mt-10">
+                <p>25 Bd de la Tour-Maubourg</p>
+                <p>75007 Paris</p>
+            </div>
+            <div class="mt-10">
+                <p>boirotavocat@gmail.com</p>
+                <p>01.23.45.67.89</p>
+            </div>
+        </div>
     </div>
-    <div class="map mt-20">
+    <div id="map" class="mt-20">
+        <small>Décommenter la balise iframe pour afficher la map</small>
         <h2>MAP</h2>
-        <p>Décommenter la balise iframe pour afficher la map</p>
         <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.902695740328!2d2.3061401246669355!3d48.860065852002364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fd82f94c2b1%3A0x38e15148442206d1!2s3B2C%20Avocats!5e0!3m2!1sfr!2sfr!4v1657127722701!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
     </div>
     <!-- TEST BUTTON REVENIR EN HAUT -->
