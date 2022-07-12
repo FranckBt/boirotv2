@@ -125,6 +125,7 @@
         <?php
         require_once './includes/revue.php';
         ?>
+        
     </div>
 
     <div id="contact" class="mt-20">

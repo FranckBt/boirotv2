@@ -1,4 +1,7 @@
 <?php
+
+use LDAP\Result;
+
 function recupRole()
 {
     try {
@@ -11,4 +14,21 @@ function recupRole()
     }
     $conn = null;
     return $roles;
+}
+
+function listRevues($number = null) {
+    $conn = getPdo();
+
+    if (is_int($number)) {
+        $sql = "SELECT * FROM revuedepresse ORDER BY dateArticle ASC LIMIT $number";
+    } else {
+        $sql = "SELECT * FROM revuedepresse ORDER BY dateArticle ASC";
+    }
+
+    $requete = $conn->prepare($sql);
+    $requete->execute();
+    $resultat = $requete->fetchAll(PDO::FETCH_OBJ);
+
+    $conn = null;
+    return $resultat;
 }

@@ -1,0 +1,13 @@
+.revueTest {
+    text-align: center;
+    /* background-color: red; */
+}
+.revueTest img {
+    width: 50px;
+}
+
+.revue-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
