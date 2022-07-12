@@ -1,6 +1,5 @@
 <?php
 function recupRole(){
-    require_once('../librairies/database.php');
 try{
         $conn = getPdo();
         $requete = $conn->prepare("SELECT * FROM role ");
