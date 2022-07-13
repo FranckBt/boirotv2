@@ -22,16 +22,20 @@
 
 
 :root {
-    --bg-primary : rgb(157, 151, 151);
+    --bg-primary : rgb(203, 203, 203);
     --bg-active : rgb(255, 251, 243);
+
+    --clr-primary: rgb(28, 44, 95);
+
 
     --ff-primary: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body{
     font-family: var(--ff-primary);
-    color: rgb(28, 44, 95);
+    color: var(--clr-primary);
 }
+
 h2{
     font-weight:400;
     

@@ -6,9 +6,15 @@ const burgerList = document.querySelectorAll('.buger-menu a');
 burgerButton.addEventListener("click",()=>{
     burgerButton.classList.toggle("active");
     burgerMenu.classList.toggle("active");
+    
+    // désactive le scroll
+    document.body.classList.toggle("stop-scrolling");
 })
 
-function hideBurger(params) {
+function hideBurger() {
     burgerButton.classList.remove("active");
     burgerMenu.classList.remove("active");
+    
+    // active le scroll
+    document.body.classList.remove("stop-scrolling");
 }
