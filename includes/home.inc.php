@@ -5,21 +5,23 @@
             <img src="./img/portrait.jpg" alt="Portrait Maitre Boirot">
             <figcaption class="competence-title wrap-std">Maitre Marion Boirot</figcaption>
         </figure>
-        <p>
-            Marion BOIROT est titulaire d’un Master 2 en droit privé général et d’un Master 2 en droit de l’entreprise mention droit social.
-        </p>
-        <p>
-            Inscrite au Barreau de Paris depuis 2008, le Cabinet intervient exclusivement en droit du travail, en droit de la sécurité sociale et en matière d’indemnisation des victimes de l’amiante.
-        </p>
-        <p>
-            L’ensemble des dossiers est traité avec un grand sérieux. Marion BOIROT veille à être disponible pour répondre aux interrogations des clients et à les tenir informés de toute évolution pouvant intervenir dans le dossier.
-        </p>
-        <p>
-            Ecoute, réactivité et rigueur sont les maîtres-mots du Cabinet. A cette fin, le premier-rendez téléphonique d’une durée de 20 minutes est gratuit.
-        </p>
-        <p>
-            Marion BOIROT intervient aux côtés des salariés et des employeurs (TPE, PME…) qu’il s’agisse du Conseil ou du Contentieux.
-        </p>
+        <div class="mt-10">
+            <p>
+                Marion BOIROT est titulaire d’un Master 2 en droit privé général et d’un Master 2 en droit de l’entreprise mention droit social.
+            </p>
+            <p>
+                Inscrite au Barreau de Paris depuis 2008, le Cabinet intervient exclusivement en droit du travail, en droit de la sécurité sociale et en matière d’indemnisation des victimes de l’amiante.
+            </p>
+            <p>
+                L’ensemble des dossiers est traité avec un grand sérieux. Marion BOIROT veille à être disponible pour répondre aux interrogations des clients et à les tenir informés de toute évolution pouvant intervenir dans le dossier.
+            </p>
+            <p>
+                Ecoute, réactivité et rigueur sont les maîtres-mots du Cabinet. A cette fin, le premier-rendez téléphonique d’une durée de 20 minutes est gratuit.
+            </p>
+            <p>
+                Marion BOIROT intervient aux côtés des salariés et des employeurs (TPE, PME…) qu’il s’agisse du Conseil ou du Contentieux.
+            </p>
+        </div>
         <a class="btn mt-10" href="index.php?page=home#contact">Contact</a>
     </div>
 
