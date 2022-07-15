@@ -10,15 +10,20 @@ if (isset($_POST['contact'])) {
 
     $erreur = array();
 
-    if (preg_match('/(*UTF8)^[[:alpha:]]+$/', html_entity_decode($nom)) !== 1)
-        array_push($erreur, "Veuillez saisir votre nom");
+    $reg = '/^[\p{L}][\p{L}\-[:blank:]]+$/';
+    // EQUIVALENT
+    // $reg2 = '/^[\p{L}][\p{L}\s]+$/';
+
+    if (preg_match($reg, html_entity_decode($nom)) !== 1)
+        array_push($erreur, "Veuillez saisir un nom");
     else
         $nom = html_entity_decode($nom);
 
-    if (preg_match('/(*UTF8)^[[:alpha:]]+$/', html_entity_decode($prenom)) !== 1)
-        array_push($erreur, "Veuillez saisir votre prénom");
-    else
-        $firstname = html_entity_decode($prenom);
+    if (strlen($prenom) > 0) {
+        if (preg_match($reg, html_entity_decode($prenom)) !== 1)
+        array_push($erreur, "Veuillez saisir un prénom ou laissez ce champs vide");
+    } else
+        $prenom = html_entity_decode($prenom);
 
     if (!filter_var($mail, FILTER_VALIDATE_EMAIL))
         array_push($erreur, "Veuillez saisir un e-mail valide");
@@ -28,7 +33,7 @@ if (isset($_POST['contact'])) {
         $telephone = str_replace($meta_carac, "", $telephone);
         $telephone = chunk_split($telephone, 2, "\r");
     } else
-        echo "$telephone n'est pas un numéro valide";
+        echo "Le numéro saisi n'est pas un numéro valide";
 
     if (count($erreur) === 0) {
         try {

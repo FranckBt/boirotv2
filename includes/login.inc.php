@@ -1,3 +1,5 @@
+<main class="wrap-std">
+    <h2>Connexion</h2>
 <?php
 if (isset($_POST['envoi'])) {
     $mail = htmlentities(trim($_POST['mail'])) ?? '';
@@ -65,8 +67,9 @@ if (isset($_POST['envoi'])) {
         echo $messageErreur;
     }
 } else {
-    echo "<h2>Merci de renseigner le formulaire&nbsp;:</h2>";
     $mail = $mdp = '';
 }
 
 include 'frmLogin.php';
+?>
+</main>
